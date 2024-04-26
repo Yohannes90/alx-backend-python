@@ -4,7 +4,7 @@
 from typing import Callable
 
 
-def make_multiplier(mutiplier: float) -> Callable[[float], float]:
+def make_multiplier(multiplier: float) -> Callable[[float], float]:
     ''' returns function that multiplies a float by argument multiplier
     '''
-    return lambda x: x * mutiplier
+    return lambda x: x * multiplier
